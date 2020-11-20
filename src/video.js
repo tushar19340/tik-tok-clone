@@ -19,6 +19,7 @@ function Video(){
     }
     return(
         <div className="video">
+            < VideoSidebar />
             <video
                 loop=" " 
                 onClick={onVideoPress}
